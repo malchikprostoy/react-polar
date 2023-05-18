@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+.footer {
+    background: #0A0808;
+    width: 100vw;
+    height: 381px;
+    display: flex;
+    justify-content: space-between;
+    .info {
+        width: 207px;
+        margin: 70px 0 0 245px;
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 17px;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+            opacity: 0.7;
+            margin: 9px 0 25px 0;
+            width: 180px;
+        }
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+        }
+        .imginfo {
+            display: flex;
+            gap: 10px;
+            margin-top: 8px;
+            img {
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 133px;
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 133px;
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+    .pay {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 133px 70px 0 0;
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            margin-bottom: 12px;
+        }
+        form {
+            input {
+                width: 263px;
+                height: 55px;
+                outline: 0;
+                background: transparent;
+                opacity: 0.5;
+                border: 2px solid #D64374;
+                border-radius: 5px;
+            }
+            input::placeholder {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #FFFFFF;
+                opacity: 0.6;
+                padding-left: 32px;
+            }
+            button {
+                height: 55px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 23px;
+                color: #FFFFFF;
+                background: #D23166;
+                border-radius: 5px;
+                position: relative;
+                left: -5px;
+                bottom: -2px;                
+            }
+        }
+        .payimg {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+    }
+}

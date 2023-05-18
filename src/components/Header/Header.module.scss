@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 102px;
+    .logo {
+        img {
+            width: 79px;
+            height: 79px;
+        }
+    }
+    .links {
+        display: flex;
+        gap: 40px;
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #150101;
+            opacity: 0.6;
+            text-decoration: none;
+            transition: all 0.2s ease-in;
+            &:hover {
+                color: #D23166;
+                transition: all 0.2s ease-in;
+            }
+        }
+    }
+    
+}
+

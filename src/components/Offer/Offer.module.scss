@@ -1,0 +1,87 @@
+.offer {
+    display: flex;
+    flex-direction: column;
+    height: 945px;
+    .first {
+        width: 100vw;
+        gap: 39px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 130px auto;
+        .item {
+            width: 250px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                color: #000000;
+                text-align: center;
+                padding-top: 24px;
+            }
+            p {
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+                color: #000000;
+                opacity: 0.6;
+                width: 198px;
+                padding-top: 9px;
+            }
+            img {
+                width: 51px;
+                height: 43px;
+            }
+        }
+    }
+    .second {
+        display: flex;
+        align-items: center;
+        background: #F8EDF0;
+        height: 544px;
+        padding-left: 253px;
+        .sleft {
+            display: flex;
+            flex-direction: column;
+            width: 442px;
+            gap: 30px;
+            h1 {
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 44.2px;
+                line-height: 49px;
+                color: #150101;
+            }
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #150101;
+                opacity: 0.6;
+            }
+            button {
+                width: 165px;
+                height: 49px;
+            }
+        }
+        .sright {
+            img {
+                width: 540px;
+                height: 540px;
+            }
+        }
+    }
+}

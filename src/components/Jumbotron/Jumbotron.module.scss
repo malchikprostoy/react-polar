@@ -1,0 +1,73 @@
+.jumbotron {
+    background: rgba(242,206,218, .3);
+    width: 100%;
+    height: 862px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    .left {
+        .head {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.1em;
+            color: #0F0101;
+        }
+        h1 {
+            margin: 6px 0 35px;
+            font-family: 'Fredoka One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 57.33px;
+            line-height: 120.5%;
+            color: #0F0101;
+            opacity: 0.9;
+            width: 570px;
+            span {
+                color: #D23166;
+            }
+        }
+        .info {
+            font-family: 'Hind Madurai';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #0F0101;
+            opacity: 0.6;
+            width: 470px;
+            margin-bottom: 63px;
+        }
+    }
+    .right {
+        width: 50%;
+        .ice {
+            width: 507px;
+            height: 507px;
+            position: absolute;
+            z-index: 1;
+            top: 250px;
+            right: 50px;
+        }
+        .bg {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            right: 100px;
+            bottom: -200px;
+            z-index: 10;
+        }
+        .round {
+            width: 300px;
+            height: 300px;
+            background: rgb(242, 206, 218);
+            border-radius: 50%;
+            position: absolute;
+            right: 150px;
+            bottom: -150px;
+        }
+    }
+}
